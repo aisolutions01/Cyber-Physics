@@ -1,0 +1,39 @@
+services:
+  # ---------------------------------------------------
+  # 1. Cyber-Physics AI Core (Secured Image)
+  # ---------------------------------------------------
+  cp-core:
+    image: cp-core-v2.2-ee:latest
+    container_name: cp-core
+    restart: always
+    environment:
+      - REDIS_HOST=cp_redis
+      - CP_CONSOLE_PORT=8080
+      - LICENSE_CLIENT_ID=DEMO-CLIENT01
+      - TENANT_ID=demo.local
+    volumes:
+      # Mount Configuration
+      - ./CONFIG:/app/CONFIG
+      # Mount Logs for File Connector
+      - ./logs:/app/ingest_logs
+      # NOTE: License keys are BAKED into the image (Secure Boot)
+    ports:
+      - "8081:8081"
+    depends_on:
+      - cp_redis
+    networks:
+      - cp-network
+
+  # ---------------------------------------------------
+  # 2. Redis (In-Memory Data Store)
+  # ---------------------------------------------------
+  cp_redis:  
+    image: redis:alpine
+    container_name: cp_redis
+    restart: always
+    networks:
+      - cp-network
+
+networks:
+  cp-network:
+    driver: bridge
