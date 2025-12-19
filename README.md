@@ -5,7 +5,7 @@
 > **Stop Zero-Day attacks with Physics, not Signatures.**
 > A deterministic, offline cyber-defense core based on differential momentum analysis.
 
-[![Docker](https://img.shields.io/badge/Docker-Enterprise_Ready-blue?logo=docker)]
+[![Docker](https://img.shields.io/badge/Docker-Enterprise_Ready-blue?logo=docker)](https://hub.docker.com/)
 [![License](https://img.shields.io/badge/License-Proprietary_(Commercial)-red)](mailto:muntherkz2018@gmail.com)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-lightgrey)]()
 
@@ -65,6 +65,7 @@ Email: muntherkz2018@gmail.com
 
 
 Region: Middle East / Europe / Asia
+
 
 
 
