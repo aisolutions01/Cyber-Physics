@@ -1,5 +1,6 @@
 # Cyber-Physics: Kinetic Defense Engine (v2.2.0 Enterprise)
 
+![Cyber-Physics Architecture](ARCHITECTURE.png)
 
 > **Stop Zero-Day attacks with Physics, not Signatures.**
 > A deterministic, offline cyber-defense core based on differential momentum analysis.
@@ -24,7 +25,7 @@
 
 Before deploying, please review the technical documentation:
 
-- **[Whitepaper: The Physics Paradigm](docs/Whitepaper.pdf)** - *Technical deep dive.*
+- **[Whitepaper: The Physics Paradigm](The_Physics_Paradigm_fo_RealTime_Cyber_Defense.pdf)** - *Technical deep dive.*
 - **[Integration Guide (PDF)](docs/CyberPhysics_Integration_Guide.pdf)** - *How to connect with SIEM/SOAR.*
 
 ---
@@ -55,5 +56,6 @@ services:
 For licensing, PoC requests, and partnership inquiries:
 
 Email: muntherkz2018@gmail.com
+
 
 Region: Middle East / Europe / Asia
