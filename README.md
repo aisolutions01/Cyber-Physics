@@ -5,8 +5,8 @@
 > **Stop Zero-Day attacks with Physics, not Signatures.**
 > A deterministic, offline cyber-defense core based on differential momentum analysis.
 
-[![Docker](https://img.shields.io/badge/Docker-Enterprise_Ready-blue?logo=docker)](https://hub.docker.com/)
-[![License](https://img.shields.io/badge/License-Proprietary_(Commercial)-red)](mailto:contact@tjdeed.com)
+![Docker](https://img.shields.io/badge/Docker-Enterprise_Ready-blue?logo=docker)
+[![License](https://img.shields.io/badge/License-Proprietary_(Commercial)-red)](mailto:muntherkz2018@gmail.com)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-lightgrey)]()
 
 ## Overview
@@ -52,6 +52,12 @@ services:
       - LICENSE_KEY=DEMO-TRIAL-MODE
 ```
 
+## Deployment Options
+Cyber-Physics is designed for sovereignty. Choose your deployment model:
+1. **On-Premise (Air-Gapped):** Fully offline via Docker.
+2. **Private Cloud:** Compatible with AWS Outposts & Azure Stack.
+3. **Hybrid:** Centralized dashboard with distributed sensors.
+
 ## Enterprise Contact
 For licensing, PoC requests, and partnership inquiries:
 
@@ -59,5 +65,6 @@ Email: muntherkz2018@gmail.com
 
 
 Region: Middle East / Europe / Asia
+
 
 
