@@ -26,7 +26,7 @@
 Before deploying, please review the technical documentation:
 
 - **[Whitepaper: The Physics Paradigm](The_Physics_Paradigm_fo_RealTime_Cyber_Defense.pdf)** - *Technical deep dive.*
-- **[Integration Guide (PDF)](docs/CyberPhysics_Integration_Guide.pdf)** - *How to connect with SIEM/SOAR.*
+- **[Integration Guide (PDF)](CyberPhysics_Integration_Guide.pdf)** - *How to connect with SIEM/SOAR.*
 
 ---
 
@@ -59,3 +59,4 @@ Email: muntherkz2018@gmail.com
 
 
 Region: Middle East / Europe / Asia
+
